@@ -8,6 +8,8 @@
 - 支持文本和图片输入
 - 流式响应处理
 
+<a href="https://glama.ai/mcp/servers/2yy6kotoxb"><img width="380" height="200" src="https://glama.ai/mcp/servers/2yy6kotoxb/badge" alt="Dify Server MCP server" /></a>
+
 ## 功能特性
 
 ### 工具
