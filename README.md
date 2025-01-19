@@ -10,12 +10,12 @@
 
 ## 功能特性
 
-### 工具
+### Tools
 
 - `antd-component-codegen-mcp-tool` - 生成 Ant Design 业务组件代码
-  - 支持文本查询和可选的图片输入
-  - 支持来自 Dify AI API 的流式响应
+  - 支持文本和可选的图片输入
   - 处理图片文件上传
+  - 支持来自 Dify AI API 的流式响应
 
 ## 开发指南
 
@@ -25,16 +25,16 @@
 npm install
 ```
 
-构建服务器：
-
-```bash
-npm run build
-```
-
 开发模式（自动重新构建）：
 
 ```bash
 npm run watch
+```
+
+构建服务器：
+
+```bash
+npm run build
 ```
 
 ## 安装说明

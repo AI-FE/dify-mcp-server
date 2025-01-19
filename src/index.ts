@@ -236,6 +236,11 @@ class DifyServer {
   }
 
   async run() {
+    /**
+     * stdio 进行对外的进程间通信
+     * 相当把 dify-mcp-server 作为子进程运行在 MCP Client 中
+     * 然后 MCP Client、dify-mcp-server之间 通过 stdio 进行通信
+     */
     const transport = new StdioServerTransport();
     await this.server.connect(transport);
     console.error("Dify MCP server running on stdio");
