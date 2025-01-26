@@ -89,3 +89,12 @@ npm run inspector
 ```
 
 Inspector 将提供一个可在浏览器中访问的调试工具 URL。
+
+## Command Tools
+
+支持集成到 Cursor 的 Agent 中，通过 Run Command 执行的方式进行调度。
+
+```bash
+DIFY_API_KEY=xxx node build/dify-command-tool.js
+# DIFY_API_KEY=app-wT7iLq0uGhEvjKrx9lgeGhmj node build/dify-command-tool.js 生成一个登陆的业务组件
+```
